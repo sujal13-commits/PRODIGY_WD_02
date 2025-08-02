@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0f172a, #1e3a8a); /* dark blue tones */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  min-width: 300px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #93c5fd;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.time-display {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #facc15; /* yellow */
+  padding: 20px;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: 0.2s ease-in-out;
+}
+
+.buttons button {
+  background: linear-gradient(to right, #2563eb, #9333ea);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, background 0.3s;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #3b82f6, #a855f7);
+}
