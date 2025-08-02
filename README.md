@@ -7,7 +7,6 @@ This is a sleek and colorful **Digital Stopwatch** built using **HTML**, **CSS**
 ## 🚀 Live Demo
 
 🔗 [View Stopwatch App](https://sujal13-commits.github.io/PRODIGY_WD_02/)  
-_(Make sure GitHub Pages is enabled for this repo)_
 
 ---
 
